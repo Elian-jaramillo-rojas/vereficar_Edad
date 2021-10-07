@@ -1,0 +1,26 @@
+.body{
+    background-color: blue;
+    height: 400px;
+    width: 450px;
+    margin: 100px  450px;
+}
+
+body {
+    background-color: mediumturquoise;
+}
+
+input{
+    display: flex;
+    flex-direction: column;
+    margin:40px 140px;
+}
+
+p  {
+    margin: 20px 100px;
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    margin: 0px 97px;
+    color: rgb(255, 255, 255);
+}
