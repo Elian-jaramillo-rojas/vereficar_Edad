@@ -1,18 +1,27 @@
-.body{
+.contenido{
+    
+    
     background-color: blue;
     height: 400px;
     width: 450px;
-    margin: 100px  450px;
+    
+    border: 2px solid black;
 }
 
-body {
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: mediumturquoise;
+    height: 100vh;
 }
 
 input{
     display: flex;
     flex-direction: column;
-    margin:40px 140px;
+    margin:20px 130px;
+    width : 10vw;
 }
 
 p  {
@@ -23,4 +32,23 @@ p  {
 h1{
     margin: 0px 97px;
     color: rgb(255, 255, 255);
+}
+
+.boton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: -90px 10px;
+    
+}
+
+.bienvenido h1{
+    color: black;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.type{
+    margin: 90px 10px;
 }

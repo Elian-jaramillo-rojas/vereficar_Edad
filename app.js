@@ -8,7 +8,7 @@ boton.addEventListener('click',verificarEdad)
 function verificarEdad(){ 
     if(edad.value >=18){
         
-        mensaje.textContent=  "Hola    "  + nombre.value  + "     usted es mayor de edad, puede votar" 
+        mensaje.textContent=  "Hola    "  + nombre.value + "     usted es mayor de edad, puede votar" 
     }
     else if (edad.value < 18  && edad.value >0 ){
         mensaje.textContent= "Hola   " + nombre.value +  "      usted es menor de edad, un no puede votar"
